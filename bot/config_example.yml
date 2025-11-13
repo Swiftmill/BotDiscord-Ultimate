@@ -1,0 +1,38 @@
+bot:
+  token: "YOUR_DISCORD_BOT_TOKEN"
+  intents:
+    message_content: true
+  command_prefix: "!"
+  guild_ids: []
+  status: "Monitoring the network"
+  activity_type: "watching"
+
+license:
+  endpoint: "http://127.0.0.1:8000/licenses/validate"
+  key: "YOUR-LICENSE-KEY"
+
+security:
+  raid_threshold: 5
+  raid_window_seconds: 30
+  spam_threshold: 5
+  spam_window_seconds: 8
+  suspicious_score_threshold: 10
+  max_caps_percentage: 0.7
+  emoji_spam_threshold: 8
+  flood_duplicate_threshold: 4
+  nsfw_model: "bot/assets/nsfw.onnx"
+  antivirus_hash_db: "../backend/antivirus_hashes.txt"
+
+music:
+  volume: 0.5
+  cache_dir: "cache/audio"
+  default_source: "youtube"
+
+logging:
+  level: "INFO"
+  file: "logs/bot.log"
+
+web:
+  host: "127.0.0.1"
+  port: 8080
+  admin_token: "set-a-strong-admin-token"

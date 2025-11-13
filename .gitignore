@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+venv*/
+*.log
+*.db
+/dist/
+/build/
+# Allow PyInstaller spec files tracked in repo
+*.spec
+!desktop/build.spec
+.cache/
+.DS_Store
