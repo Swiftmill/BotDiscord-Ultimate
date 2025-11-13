@@ -1,0 +1,2 @@
+# Known malicious SHA256 hashes (sample placeholders)
+2d711642b726b04401627ca9fbac32f5da7b19b1398c1b6f5b5d5a16f8035d52
